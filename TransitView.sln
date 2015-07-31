@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AF68D14D-0CEB-4069-ADC9-EBC1680ABAB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B5888659-80AD-441C-A0CA-0A1CC561F263}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TransitView.Web", "src\TransitView.Web\TransitView.Web.xproj", "{FE2B12B5-5F82-40EB-9EC9-55239E30BB49}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TransitView.Data", "src\TransitView.Data\TransitView.Data.xproj", "{FE2EB09A-8E19-4F65-BEAA-8DB3DDEB6876}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE2B12B5-5F82-40EB-9EC9-55239E30BB49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE2B12B5-5F82-40EB-9EC9-55239E30BB49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE2B12B5-5F82-40EB-9EC9-55239E30BB49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE2B12B5-5F82-40EB-9EC9-55239E30BB49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE2EB09A-8E19-4F65-BEAA-8DB3DDEB6876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE2EB09A-8E19-4F65-BEAA-8DB3DDEB6876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE2EB09A-8E19-4F65-BEAA-8DB3DDEB6876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE2EB09A-8E19-4F65-BEAA-8DB3DDEB6876}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE2B12B5-5F82-40EB-9EC9-55239E30BB49} = {AF68D14D-0CEB-4069-ADC9-EBC1680ABAB6}
+		{FE2EB09A-8E19-4F65-BEAA-8DB3DDEB6876} = {AF68D14D-0CEB-4069-ADC9-EBC1680ABAB6}
+	EndGlobalSection
+EndGlobal

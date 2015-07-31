@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0-*",
+  "description": "TransitView.Data Class Library",
+  "authors": [ "Chris Harvey" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+    "EntityFramework.SQLite": "7.0.0-beta6"
+  },
+
+  "frameworks": {
+    "dnx451": { },
+    "dnxcore50": { }
+  }
+}
